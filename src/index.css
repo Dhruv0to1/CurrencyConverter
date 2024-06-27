@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.maincontainer {
+  display: flex;
+  width: auto;
+  background-color: antiquewhite;
+  justify-content: space-between;
+  margin: 4px;
+  padding: 4px;
+}
+
+.outercont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 850px; */
+}
+.swapBut {
+  width: 70px;
+  align-self: center;
+}
